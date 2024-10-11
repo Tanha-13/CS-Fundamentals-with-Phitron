@@ -18,14 +18,12 @@ int main(){
     bool result4 = num1<=num2;
     bool result5 = num1==num2;
     bool result6 = num1!= num2;
-    printf("%d\n", result1); //output: 0
-    printf("%d\n", result2); //output: 1
-    printf("%d\n", result3); //output: 0
-    printf("%d\n", result4); //output: 1
-    printf("%d\n", result5); //output: 0
-    printf("%d\n", result6); //output: 1
-
-
-
-    return 0;
+    // printf("%d\n", result1); //output: 0
+    // printf("%d\n", result2); //output: 1
+    // printf("%d\n", result3); //output: 0
+    // printf("%d\n", result4); //output: 1
+    // printf("%d\n", result5); //output: 0
+    // printf("%d\n", result6); //output: 1
+    
+    ;
 }
