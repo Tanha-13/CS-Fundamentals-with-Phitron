@@ -14,8 +14,11 @@ int main(){
 
     length++;
     
-    for(int i = length-1;i>=index;i--){
-        a[i+1] = a[i];
+    // for(int i = length-1;i>=index;i--){
+    //     a[i+1] = a[i];
+    // }
+    for(int i = length;i>=index;i--){
+        a[i] = a[i-1];
     }
     a[index] = value;
     for(int i=0;i<length;i++){

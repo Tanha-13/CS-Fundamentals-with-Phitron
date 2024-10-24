@@ -11,6 +11,12 @@ int main(){
     for(int i = 0, j=length-1;i<length;i++, j--){
         b[j] = a[i];
     }
+    //alternate
+    int j=length-1;
+    for(int i=0;i<length;i++){
+        b[j] = a[i];
+        j--;
+    }
 
     for(int i =0;i<length;i++){
         a[i] = b[i];
